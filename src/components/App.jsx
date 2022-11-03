@@ -50,7 +50,7 @@ export class App extends Component {
 
     return (
       <div className={css.wrapper}>
-        <h1 classname={css.title}>Phonebook</h1>
+        <h1>Phonebook</h1>
         <ContactForm onSubmit={this.addContactToList} />
 
         <h2 className={css.subtitle}>Contacts</h2>
